@@ -9,12 +9,12 @@ namespace Repository
 {
    public class RoomRepository
    {
-      public void AddRoom(Room room)
+      public void CreateRoom(Room room)
       {
          throw new NotImplementedException();
       }
       
-      public Room GetRooms()
+      public List<Room> GetRooms()
       {
          throw new NotImplementedException();
       }

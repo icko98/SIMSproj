@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Manager" HorizontalAlignment="Center" Margin="115,71,104.8,66.4" VerticalAlignment="Center" Width="177" Height="73" Click="Button_Click_Manager" Grid.Row="0" Grid.Column="0"/>
+
     </Grid>
 </Window>

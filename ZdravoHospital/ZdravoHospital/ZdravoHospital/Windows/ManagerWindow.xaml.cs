@@ -15,13 +15,25 @@ using System.Windows.Shapes;
 namespace ZdravoHospital.Windows
 {
     /// <summary>
-    /// Interaction logic for Manager.xaml
+    /// Interaction logic for ManagerWindow.xaml
     /// </summary>
-    public partial class Manager : Window
+    public partial class ManagerWindow : Window
     {
-        public Manager()
+        public ManagerWindow()
         {
             InitializeComponent();
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
+        }
+
+        private static ManagerWindow windowInstance;
+        public static ManagerWindow GetManagerWindow()
+        {
+            if (windowInstance == null)
+            {
+                windowInstance = new ManagerWindow();
+
+            }
+            return windowInstance;
         }
     }
 }

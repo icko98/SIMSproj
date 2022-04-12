@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZdravoHospital.Windows;
 
 namespace ZdravoHospital
 {
@@ -23,6 +24,14 @@ namespace ZdravoHospital
         public MainWindow()
         {
             InitializeComponent();
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
+        }
+
+        private void Button_Click_Manager(object sender, RoutedEventArgs e)
+        {
+            ManagerWindow managerWindow = ManagerWindow.GetManagerWindow();
+            managerWindow.Show();
+            
         }
     }
 }
