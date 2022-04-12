@@ -4,6 +4,7 @@
 // Purpose: Definition of Class RoomRepository
 
 using System;
+using System.Collections.Generic;
 using Model;
 
 namespace Repository
@@ -12,28 +13,64 @@ namespace Repository
    {
       public void CreateRoom(Room room)
       {
-         throw new NotImplementedException();
-      }
+            Room = roomFileHandler.Load();
+            foreach (Room r in Room)
+            {
+                if(r.Id == room.Id)
+                {
+                    return;
+                }
+                
+            }
+
+            Room.Add(room);
+            roomFileHandler.Save(Room);
+        }
       
-      public Room GetRooms()
+      public List<Room> GetRooms()
       {
-         throw new NotImplementedException();
+            return roomFileHandler.Load();
       }
       
       public void EditRoom(Room room)
       {
-         throw new NotImplementedException();
-      }
+            Room = roomFileHandler.Load();
+            int numberOfRooms = Room.Count;
+            for (int i = 0; i< numberOfRooms; i++)
+            {
+                if(Room[i].Id == room.Id)
+                {
+                     Room[i] = room;
+
+                }
+
+            }
+
+            roomFileHandler.Save(Room);
+
+        }
       
       public void DeleteRoom(Room room)
       {
-         throw new NotImplementedException();
+            Room = roomFileHandler.Load();
+            Room.Remove(room);
       }
-      
+
       public Model.Room GetById(string id)
       {
-         throw new NotImplementedException();
-      }
+            Room = roomFileHandler.Load();
+            Room wantedRoom = null;
+            int numberOfRooms = Room.Count;
+            for(int i = 0; i < numberOfRooms; i++)
+            {
+                if(Room[i].Id == id)
+                {
+                    wantedRoom = Room[i];
+                }
+            }
+
+            return wantedRoom;
+        }
       
       public FileHandler.RoomFileHandler roomFileHandler;
       public System.Collections.Generic.List<Room> room;

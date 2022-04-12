@@ -4,6 +4,7 @@
 // Purpose: Definition of Class RoomService
 
 using System;
+using System.Collections.Generic;
 using Model;
 
 namespace Service
@@ -12,27 +13,27 @@ namespace Service
    {
       public void CreateRoom(Room room)
       {
-         throw new NotImplementedException();
+         roomRepository.CreateRoom(room);
       }
       
-      public Room GetRooms()
+      public List<Room> GetRooms()
       {
-         throw new NotImplementedException();
+            return roomRepository.GetRooms();
       }
       
       public void EditRoom(Room room)
       {
-         throw new NotImplementedException();
+            roomRepository.EditRoom(room);
       }
       
       public void DeleteRoom(Room room)
       {
-         throw new NotImplementedException();
+            roomRepository.DeleteRoom(room);
       }
       
       public Room GetById(string id)
       {
-         throw new NotImplementedException();
+            return roomRepository.GetById(id);
       }
       
       public Repository.RoomRepository roomRepository;

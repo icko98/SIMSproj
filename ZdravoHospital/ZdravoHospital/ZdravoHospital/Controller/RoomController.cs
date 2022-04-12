@@ -4,6 +4,7 @@
 // Purpose: Definition of Class RoomController
 
 using System;
+using System.Collections.Generic;
 using Model;
 
 namespace Controller
@@ -12,27 +13,27 @@ namespace Controller
    {
       public void CreateRoom(Room room)
       {
-         throw new NotImplementedException();
+         roomService.CreateRoom(room);
       }
       
-      public Room GetRoom()
+      public List<Room> GetRooms()
       {
-         throw new NotImplementedException();
+         return roomService.GetRooms();
       }
       
       public void EditRoom(Room room)
       {
-         throw new NotImplementedException();
+         roomService.EditRoom(room);
       }
       
       public void DeleteRoom(Room room)
       {
-         throw new NotImplementedException();
+            roomService.DeleteRoom(room);
       }
       
       public Room GetById(string id)
       {
-         throw new NotImplementedException();
+            return roomService.GetById(id);
       }
       
       public Service.RoomService roomService;

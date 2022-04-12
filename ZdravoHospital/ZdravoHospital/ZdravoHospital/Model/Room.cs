@@ -7,13 +7,20 @@ using System;
 
 namespace Model
 {
-   public class Room
-   {
-      private string id;
-      private string name;
-      private string description;
-      private int floor;
-      private RoomType roomType;
+    public class Room
+    {
+        private string id;
+        private string name;
+        private string description;
+        private int floor;
+        private RoomType roomType;
+
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public int Floor { get; set; }
+        public RoomType RoomType {get; set;}
+
    
    }
 }
