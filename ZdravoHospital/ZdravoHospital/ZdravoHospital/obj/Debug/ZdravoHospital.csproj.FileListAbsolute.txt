@@ -1,0 +1,15 @@
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csprojAssemblyReference.cache
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\App.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.cache
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital_MarkupCompile.lref
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe.config
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.pdb
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\MainWindow.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.g.resources
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.Properties.Resources.resources
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.GenerateResource.cache
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CoreCompileInputs.cache
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
