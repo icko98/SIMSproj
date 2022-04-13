@@ -25,12 +25,12 @@
         <Label FontSize="20" Content="Description" HorizontalAlignment="Center" Margin="143,10.2,4.8,0" VerticalAlignment="Top" Height="50" Width="117" Grid.Row="2"/>
         <Label FontSize="20" Content="Floor" HorizontalAlignment="Center" Margin="143,9.8,9.8,0" VerticalAlignment="Top" Height="47" Width="112" Grid.Row="3"/>
         <Label FontSize="20" Content="Type" HorizontalAlignment="Center" Margin="143,10.2,9.8,0" VerticalAlignment="Top" Height="49" Width="112" Grid.Row="4"/>
-        <TextBox Name="Id" Grid.Column="1" HorizontalAlignment="Left" Height="50" Margin="10.2,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245"/>
-        <TextBox Name="Name" Grid.Column="1" HorizontalAlignment="Left" Height="44" Margin="10.2,16.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" Grid.Row="1"/>
-        <TextBox Name="Description" Grid.Column="1" HorizontalAlignment="Left" Height="50" Margin="10.2,10.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" Grid.Row="2"/>
-        <TextBox Name="Floor" Grid.Column="1" HorizontalAlignment="Left" Height="47" Margin="10.2,9.8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" Grid.Row="3"/>
+        <TextBox Name="Id" Grid.Column="1" HorizontalAlignment="Left" Height="50" Margin="10.2,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" TextChanged="TextChanged"/>
+        <TextBox Name="Name" Grid.Column="1" HorizontalAlignment="Left" Height="44" Margin="10.2,16.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" Grid.Row="1" TextChanged="TextChanged"/>
+        <TextBox Name="Description" Grid.Column="1" HorizontalAlignment="Left" Height="50" Margin="10.2,10.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" Grid.Row="2" TextChanged="TextChanged"/>
+        <TextBox Name="Floor" Grid.Column="1" HorizontalAlignment="Left" Height="47" Margin="10.2,9.8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" Grid.Row="3" TextChanged="TextChanged"/>
         <Button Content="No" HorizontalAlignment="Left" Margin="143,9.6,0,0" Grid.Row="5" VerticalAlignment="Top" Width="99" Height="50" Click="Button_Click_No"/>
-        <Button Content="Yes" HorizontalAlignment="Left" Margin="27.4,9.6,0,0" Grid.Row="5" VerticalAlignment="Top" Width="101" Grid.Column="2" Height="50" Click="Button_Click_Yes"/>
-        <ComboBox Name="Type" Grid.Column="1" HorizontalAlignment="Left" Margin="10.2,10.2,0,0" Grid.Row="4" VerticalAlignment="Top" Width="245" Height="49"/>
+        <Button Content="Yes" Name="ButtonYes" HorizontalAlignment="Left" Margin="27.4,9.6,0,0" Grid.Row="5" VerticalAlignment="Top" Width="101" Grid.Column="2" Height="50" Click="Button_Click_Yes"/>
+        <ComboBox SelectedIndex="0" Name="Type" Grid.Column="1" HorizontalAlignment="Left" Margin="10.2,10.2,0,0" Grid.Row="4" VerticalAlignment="Top" Width="245" Height="49"/>
     </Grid>
 </Window>

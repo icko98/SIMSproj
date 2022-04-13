@@ -26,6 +26,7 @@ namespace ZdravoHospital.Windows
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
             DataContext = this;
             Type.ItemsSource = Enum.GetValues(typeof(RoomType)).Cast<RoomType>();
+            ButtonYes.IsEnabled = false;
             
         }
 
@@ -51,6 +52,17 @@ namespace ZdravoHospital.Windows
             ManagerWindow.GetManagerWindow().refreshRoomTable();
             Close();
         }
-       
+
+        private void TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if(string.IsNullOrEmpty(Id.Text) || string.IsNullOrEmpty(Name.Text) || string.IsNullOrEmpty(Description.Text) || string.IsNullOrEmpty(Floor.Text))
+            {
+                ButtonYes.IsEnabled = false;
+            }
+            else
+            {
+                ButtonYes.IsEnabled = true;
+            }
+        }
     }
 }
