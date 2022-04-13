@@ -36,7 +36,7 @@ namespace Controller
             return roomService.GetById(id);
       }
       
-      public Service.RoomService roomService;
+      public Service.RoomService roomService = new Service.RoomService();
    
    }
 }

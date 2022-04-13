@@ -13,3 +13,10 @@ C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CoreCompileInputs.cache
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ManagerWindow.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.dll
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\Newtonsoft.Json.xml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.baml

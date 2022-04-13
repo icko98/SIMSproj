@@ -13,13 +13,14 @@ namespace FileHandler
    {
       public void Save(List<Room> rooms)
       {
-         throw new NotImplementedException();
+            System.IO.File.WriteAllText(path, Newtonsoft.Json.JsonConvert.SerializeObject(rooms));
       }
       
       public List<Room> Load()
       {
-         throw new NotImplementedException();
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<List<Room>>(System.IO.File.ReadAllText(path));
       }
-   
+
+        private string path = @"..\..\Data\Rooms.txt";
    }
 }
