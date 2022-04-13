@@ -1,1 +1,1 @@
-[{"Id":"R1","Name":"bla","Description":"","Floor":0,"RoomType":0},{"Id":"R2","Name":"bla","Description":"","Floor":0,"RoomType":0}]
+[{"Id":"R1","Name":"Meeting room","Description":"","Floor":0,"RoomType":0},{"Id":"R2","Name":"Meeting room","Description":"","Floor":2,"RoomType":0},{"Id":"R3","Name":"Examination room","Description":"","Floor":1,"RoomType":2}]

@@ -63,17 +63,29 @@ namespace ZdravoHospital.Windows
 
         private void Button_Click_Add(object sender, RoutedEventArgs e)
         {
+            if(SelectedRoom == null)
+            {
+                return;
+            }
             CreateRoom createRoom = new CreateRoom();
             createRoom.Show();
         }
 
         private void Button_Click_Edit(object sender, RoutedEventArgs e)
         {
-           
+            if (SelectedRoom == null)
+            {
+                return;
+            }
+            EditRoom editRoom = new EditRoom();
         }
 
         private void Button_Click_Delete(object sender, RoutedEventArgs e)
         {
+            if (SelectedRoom == null)
+            {
+                return;
+            }
             DeleteRoom deleteRoom = new DeleteRoom();
             deleteRoom.Show();
         }
