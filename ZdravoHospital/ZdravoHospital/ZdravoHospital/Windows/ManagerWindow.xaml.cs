@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +13,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Controller;
+using Model;
 
 namespace ZdravoHospital.Windows
 {
@@ -19,10 +23,18 @@ namespace ZdravoHospital.Windows
     /// </summary>
     public partial class ManagerWindow : Window
     {
+        public static RoomController roomController = new RoomController();
+        public ObservableCollection<Room> Rooms { get; set; }
+
+        public static Room SelectedRoom { get; set; }
+
         public ManagerWindow()
         {
             InitializeComponent();
+            this.DataContext = this;
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
+
+            Rooms = new ObservableCollection<Room>(roomController.GetRooms());
         }
 
         private static ManagerWindow windowInstance;
@@ -34,6 +46,35 @@ namespace ZdravoHospital.Windows
 
             }
             return windowInstance;
+        }
+
+        public void refreshRoomTable()
+        {
+
+            roomsTable.ItemsSource = null;
+            roomsTable.ItemsSource = roomController.GetRooms();
+            
+        }
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            windowInstance = null;
+        }
+
+        private void Button_Click_Add(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Edit(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Delete(object sender, RoutedEventArgs e)
+        {
+            DeleteRoom deleteRoom = new DeleteRoom();
+            deleteRoom.Show();
         }
     }
 }

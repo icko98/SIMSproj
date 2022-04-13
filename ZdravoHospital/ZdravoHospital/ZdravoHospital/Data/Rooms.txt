@@ -1,0 +1,1 @@
+[{"Id":"R1","Name":"bla","Description":"","Floor":0,"RoomType":0},{"Id":"R2","Name":"bla","Description":"","Floor":0,"RoomType":0}]

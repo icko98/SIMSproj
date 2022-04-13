@@ -15,6 +15,15 @@ namespace Model
         private int floor;
         private RoomType roomType;
 
+        public Room(string id, string name, string description, int floor, RoomType roomType)
+        {
+            Id = id;
+            Name = name;
+            Description = description;
+            Floor = floor;
+            RoomType = roomType;
+        }
+
         public string Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }

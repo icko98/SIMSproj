@@ -53,7 +53,16 @@ namespace Repository
       public void DeleteRoom(Room room)
       {
             Room = roomFileHandler.Load();
-            Room.Remove(room);
+            int numberOfRooms = Room.Count;
+            for(int i = 0; i < numberOfRooms; i++)
+            {
+                if(Room[i].Id == room.Id)
+                {
+                    Room.RemoveAt(i);
+                }
+            }
+            
+            roomFileHandler.Save(Room);
       }
 
       public Model.Room GetById(string id)
@@ -71,8 +80,8 @@ namespace Repository
 
             return wantedRoom;
         }
-      
-      public FileHandler.RoomFileHandler roomFileHandler;
+
+      public FileHandler.RoomFileHandler roomFileHandler = new FileHandler.RoomFileHandler();
       public System.Collections.Generic.List<Room> room;
       
       /// <summary>

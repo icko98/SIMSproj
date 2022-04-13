@@ -36,7 +36,7 @@ namespace Service
             return roomRepository.GetById(id);
       }
       
-      public Repository.RoomRepository roomRepository;
+      public Repository.RoomRepository roomRepository = new Repository.RoomRepository();
    
    }
 }
