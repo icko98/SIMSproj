@@ -58,7 +58,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controller\AppController.cs" />
+    <Compile Include="FileHandler\AppFileHandler.cs" />
+    <Compile Include="Model\App.cs" />
+    <Compile Include="Repository\AppRepository.cs" />
     <Compile Include="Repository\RoomRepository.cs" />
+    <Compile Include="Service\AppService.cs" />
     <Compile Include="Service\RoomService.cs" />
     <Compile Include="Validation\ValidationForRooms.cs" />
     <Compile Include="Windows\CreateRoom.xaml.cs">
