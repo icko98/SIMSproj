@@ -20,3 +20,7 @@ C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.g.cs
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteRoom.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.g.cs
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.baml

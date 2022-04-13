@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\App.xaml
-32061802297
+5936245166
 
-13682902272
+15227284640
 14-625294995
-MainWindow.xaml;Windows\DeleteRoom.xaml;Windows\ManagerWindow.xaml;
+MainWindow.xaml;Windows\CreateRoom.xaml;Windows\DeleteRoom.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
 
 False
 

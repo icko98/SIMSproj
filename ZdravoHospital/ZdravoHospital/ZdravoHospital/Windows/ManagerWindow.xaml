@@ -19,7 +19,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <DataGrid Name="roomsTable" ItemsSource="{Binding Path=Rooms, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedRoom, Mode=TwoWay}" ColumnWidth="*" HorizontalAlignment="Center" Height="316" Margin="10,20,22.133,0" VerticalAlignment="Center" Width="762" Grid.ColumnSpan="3"  Grid.RowSpan="4" AutoGenerateColumns="False">
+        <DataGrid Name="roomsTable" ItemsSource="{Binding Path=Rooms, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedRoom, Mode=TwoWay}" ColumnWidth="*" HorizontalAlignment="Center" Height="316" Margin="10,20,22.133,0" VerticalAlignment="Center" Width="762" Grid.ColumnSpan="3"  Grid.RowSpan="4" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" />

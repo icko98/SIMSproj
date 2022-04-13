@@ -5,6 +5,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Windows;
 using Model;
 
 namespace Repository
@@ -14,15 +15,6 @@ namespace Repository
       public void CreateRoom(Room room)
       {
             Room = roomFileHandler.Load();
-            foreach (Room r in Room)
-            {
-                if(r.Id == room.Id)
-                {
-                    return;
-                }
-                
-            }
-
             Room.Add(room);
             roomFileHandler.Save(Room);
         }

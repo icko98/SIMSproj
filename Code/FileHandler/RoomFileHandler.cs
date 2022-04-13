@@ -9,6 +9,7 @@ namespace FileHandler
 {
    public class RoomFileHandler
    {
+      private string path;
       public void Save(List<Room> rooms)
       {
          throw new NotImplementedException();
