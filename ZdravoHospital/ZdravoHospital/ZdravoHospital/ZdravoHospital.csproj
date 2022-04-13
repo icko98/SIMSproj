@@ -60,6 +60,7 @@
     </ApplicationDefinition>
     <Compile Include="Repository\RoomRepository.cs" />
     <Compile Include="Service\RoomService.cs" />
+    <Compile Include="Validation\ValidationForRooms.cs" />
     <Compile Include="Windows\CreateRoom.xaml.cs">
       <DependentUpon>CreateRoom.xaml</DependentUpon>
     </Compile>

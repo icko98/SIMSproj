@@ -24,3 +24,4 @@ C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateRoom.baml
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.g.cs
 C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditRoom.baml
+C:\Users\smvul\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\GeneratedInternalTypeHelper.g.cs
