@@ -38,5 +38,11 @@ namespace ZdravoHospital
             DoctorWindow doctorWindow = DoctorWindow.GetDoctorWindow();
             doctorWindow.Show();
         }
+
+        private void Button_Click_Secretary(object sender, RoutedEventArgs e)
+        {
+            SecretaryWindow secretaryWindow = SecretaryWindow.GetSecretaryWindow();
+            secretaryWindow.Show();
+        }
     }
 }

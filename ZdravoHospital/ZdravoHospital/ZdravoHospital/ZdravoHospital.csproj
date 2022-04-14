@@ -59,11 +59,17 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controller\AppController.cs" />
+    <Compile Include="Controller\PatientController.cs" />
     <Compile Include="FileHandler\AppFileHandler.cs" />
+    <Compile Include="FileHandler\PatientFileHandler.cs" />
     <Compile Include="Model\App.cs" />
+    <Compile Include="Model\Gender.cs" />
+    <Compile Include="Model\Patient.cs" />
     <Compile Include="Repository\AppRepository.cs" />
+    <Compile Include="Repository\PatientRepository.cs" />
     <Compile Include="Repository\RoomRepository.cs" />
     <Compile Include="Service\AppService.cs" />
+    <Compile Include="Service\PatientService.cs" />
     <Compile Include="Service\RoomService.cs" />
     <Compile Include="Validation\ValidationForRooms.cs" />
     <Compile Include="Windows\CreateApp.xaml.cs">
@@ -77,6 +83,9 @@
     </Compile>
     <Compile Include="Windows\DeleteRoom.xaml.cs">
       <DependentUpon>DeleteRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SecretaryWindow.xaml.cs">
+      <DependentUpon>SecretaryWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\DoctorWindow.xaml.cs">
       <DependentUpon>DoctorWindow.xaml</DependentUpon>
@@ -119,6 +128,10 @@
     <Page Include="Windows\DeleteRoom.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\SecretaryWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Windows\DoctorWindow.xaml">
       <SubType>Designer</SubType>
