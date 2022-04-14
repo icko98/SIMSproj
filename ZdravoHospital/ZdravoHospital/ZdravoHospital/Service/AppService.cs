@@ -12,7 +12,7 @@ namespace Service
    public class AppService
    {
         public Repository.AppRepository apr = new Repository.AppRepository();
-        public App GetOne(int id)
+        public App GetOne(Guid id)
       {
          return apr.GetByID(id);
       }
@@ -32,7 +32,7 @@ namespace Service
             apr.Create(app);
       }
       
-      public void DeleteById(int id)
+      public void DeleteById(Guid id)
       {
          apr.DeleteByAppId(id);
       }

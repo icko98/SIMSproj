@@ -66,11 +66,23 @@
     <Compile Include="Service\AppService.cs" />
     <Compile Include="Service\RoomService.cs" />
     <Compile Include="Validation\ValidationForRooms.cs" />
+    <Compile Include="Windows\CreateApp.xaml.cs">
+      <DependentUpon>CreateApp.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\CreateRoom.xaml.cs">
       <DependentUpon>CreateRoom.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\DeleteApp.xaml.cs">
+      <DependentUpon>DeleteApp.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\DeleteRoom.xaml.cs">
       <DependentUpon>DeleteRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DoctorWindow.xaml.cs">
+      <DependentUpon>DoctorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EditApp.xaml.cs">
+      <DependentUpon>EditApp.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\EditRoom.xaml.cs">
       <DependentUpon>EditRoom.xaml</DependentUpon>
@@ -92,11 +104,27 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\CreateApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\CreateRoom.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\DeleteApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\DeleteRoom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\DoctorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EditApp.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

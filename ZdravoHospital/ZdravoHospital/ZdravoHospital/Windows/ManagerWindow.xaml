@@ -8,9 +8,10 @@
         Title="ManagerWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="206*"/>
+            <ColumnDefinition Width="267*"/>
+            <ColumnDefinition Width="267*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -19,7 +20,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <DataGrid Name="roomsTable" ItemsSource="{Binding Path=Rooms, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedRoom, Mode=TwoWay}" ColumnWidth="*" HorizontalAlignment="Center" Height="316" Margin="10,20,22.133,0" VerticalAlignment="Center" Width="762" Grid.ColumnSpan="3"  Grid.RowSpan="4" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False">
+        <DataGrid Name="roomsTable" ItemsSource="{Binding Path=Rooms, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedRoom, Mode=TwoWay}" ColumnWidth="*" HorizontalAlignment="Left" Height="316" Margin="13,26,0,0" VerticalAlignment="Top" Width="762" Grid.ColumnSpan="4"  Grid.RowSpan="4" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
@@ -28,9 +29,9 @@
                 <DataGridTextColumn Header="RoomType" Binding="{Binding RoomType}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="75,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_Add" Height="37"/>
-        <Button Content="Edit" HorizontalAlignment="Left" Margin="79.2,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_Edit" Height="37" Grid.Column="1"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Margin="86.4,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_Delete" Height="37" Grid.Column="2"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="15,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_Add" Height="37" Grid.Column="1"/>
+        <Button Content="Edit" HorizontalAlignment="Left" Margin="79,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_Edit" Height="37" Grid.Column="2"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="87,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_Delete" Height="37" Grid.Column="3"/>
 
     </Grid>
 </Window>

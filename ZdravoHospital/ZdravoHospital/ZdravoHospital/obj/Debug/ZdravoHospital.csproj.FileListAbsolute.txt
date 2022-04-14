@@ -53,3 +53,11 @@ C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj
 C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.csproj.CopyComplete
 C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.exe
 C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DoctorWindow.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateApp.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\DeleteApp.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditApp.baml

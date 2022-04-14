@@ -19,7 +19,7 @@ namespace Repository
             afh.Save(App);
         }
 
-        public void DeleteByAppId(int id)
+        public void DeleteByAppId(Guid id)
         {
             App = afh.Load();
             int numapps = App.Count;
@@ -28,12 +28,13 @@ namespace Repository
                 if(App[i].Id == id)
                 {
                     App.RemoveAt(i);
+                    break;
                 }
             }
             afh.Save(App);
         }
 
-        public App GetByID(int id)
+        public App GetByID(Guid id)
         {
             App = afh.Load();
             App newapp = null;

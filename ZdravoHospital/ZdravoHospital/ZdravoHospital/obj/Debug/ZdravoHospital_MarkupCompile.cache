@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\App.xaml
-51291830648
+9-884786709
 
-21-367390925
+251932267844
 14-276418523
-MainWindow.xaml;Windows\CreateRoom.xaml;Windows\DeleteRoom.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
+MainWindow.xaml;Windows\CreateApp.xaml;Windows\CreateRoom.xaml;Windows\DeleteApp.xaml;Windows\DeleteRoom.xaml;Windows\DoctorWindow.xaml;Windows\EditApp.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
 
 False
 

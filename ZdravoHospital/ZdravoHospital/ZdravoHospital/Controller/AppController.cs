@@ -21,12 +21,12 @@ namespace Controller
          appService.Update(app);
       }
       
-      public void DeleteById(int id)
+      public void DeleteById(Guid id)
       {
          appService.DeleteById(id);
       }
       
-      public App GetById(int id)
+      public App GetById(Guid id)
       {
          return appService.GetOne(id);
       }
