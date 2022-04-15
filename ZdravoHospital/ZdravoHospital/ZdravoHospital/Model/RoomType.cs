@@ -13,6 +13,6 @@ namespace Model
       MeetingRoom,
       OperationRoom,
       ExaminationRoom,
-      Warehouse,
+      Warehouse
    }
 }
