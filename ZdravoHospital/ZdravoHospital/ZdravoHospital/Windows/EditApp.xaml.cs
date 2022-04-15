@@ -27,7 +27,9 @@ namespace ZdravoHospital.Windows
             Model.App xap = DoctorWindow.SelectedApp;
             PId.Text = xap.PatientID;
             Duration.Text = xap.Duration.ToString();
+            Id.Text = xap.Id.ToString();
             Show();
+            
 
 
         }
@@ -37,7 +39,7 @@ namespace ZdravoHospital.Windows
         }
         private void Button_Doc_Y(object sender, RoutedEventArgs e)
         {
-            DoctorWindow.appController.Update(new Model.App(PId.Text, nzm.DisplayDate, Int32.Parse(Duration.Text)));
+            DoctorWindow.appController.Update(new Model.App(Id.Text,PId.Text, nzm.SelectedDate.Value, Int32.Parse(Duration.Text)));
             DoctorWindow.GetDoctorWindow().refreshAppTable();
             Close();
         }

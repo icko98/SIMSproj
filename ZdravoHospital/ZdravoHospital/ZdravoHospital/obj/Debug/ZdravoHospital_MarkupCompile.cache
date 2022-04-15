@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\
 ZdravoHospital
 none
 false
 DEBUG;TRACE
-C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\App.xaml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\App.xaml
 11-2093481550
 
 331439299351
-14-649153467
+14-276418523
 MainWindow.xaml;Windows\CreatePatient.xaml;Windows\CreateApp.xaml;Windows\CreateRoom.xaml;Windows\DeleteApp.xaml;Windows\DeleteRoom.xaml;Windows\SecretaryWindow.xaml;Windows\DoctorWindow.xaml;Windows\EditApp.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
 
 False

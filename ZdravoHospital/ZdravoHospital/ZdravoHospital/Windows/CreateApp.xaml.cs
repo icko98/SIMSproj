@@ -33,7 +33,7 @@ namespace ZdravoHospital.Windows
         }
         private void Button_Doc_Y(object sender, RoutedEventArgs e)
         {
-            DoctorWindow.appController.Create(new Model.App(PId.Text, nzm.DisplayDate, Int32.Parse(Duration.Text)));
+            DoctorWindow.appController.Create(new Model.App(PId.Text, nzm.SelectedDate.Value, Int32.Parse(Duration.Text)));
             DoctorWindow.GetDoctorWindow().refreshAppTable();
             Close();
 

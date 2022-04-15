@@ -101,3 +101,7 @@ C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\Zdrav
 C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\ZdravoHospital.pdb
 C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.g.cs
 C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreatePatient.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\SecretaryWindow.baml
