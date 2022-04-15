@@ -1,8 +1,4 @@
-﻿// File:    PatientService.cs
-// Author:  smvul
-// Created: Tuesday, April 12, 2022 10:59:59 PM
-// Purpose: Definition of Class PatientService
-
+﻿
 using System;
 using System.Collections.Generic;
 using Model;

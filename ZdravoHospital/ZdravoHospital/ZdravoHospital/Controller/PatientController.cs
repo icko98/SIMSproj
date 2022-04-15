@@ -1,7 +1,4 @@
-﻿// File:    PatientController.cs
-// Author:  smvul
-// Created: Tuesday, April 12, 2022 10:59:59 PM
-// Purpose: Definition of Class PatientController
+﻿
 
 using System;
 using System.Collections.Generic;
