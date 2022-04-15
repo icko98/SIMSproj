@@ -79,9 +79,9 @@ namespace Repository
         {
             get
             {
-                if (Patient == null)
-                    Patient = new System.Collections.Generic.List<Patient>();
-                return Patient;
+                if (patient == null)
+                    patient = new System.Collections.Generic.List<Patient>();
+                return patient;
             }
             set
             {

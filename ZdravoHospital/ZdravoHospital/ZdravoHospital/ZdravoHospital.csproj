@@ -84,8 +84,14 @@
     <Compile Include="Windows\DeleteApp.xaml.cs">
       <DependentUpon>DeleteApp.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\DeletePatient.xaml.cs">
+      <DependentUpon>DeletePatient.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\DeleteRoom.xaml.cs">
       <DependentUpon>DeleteRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EditPatient.xaml.cs">
+      <DependentUpon>EditPatient.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\SecretaryWindow.xaml.cs">
       <DependentUpon>SecretaryWindow.xaml</DependentUpon>
@@ -132,7 +138,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\DeletePatient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\DeleteRoom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EditPatient.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -4,6 +4,13 @@ namespace Model
 {
     public class Patient
     {
+        private string _jmbg;
+        private string _name;
+        private string _surname;
+        private string _adress;
+        private string _phoneNumber;
+        private string _dateOfBirth;
+        private string _recordNumber;
         public string jmbg { get; set; }
         public string name { get; set; }
         public string surname { get; set; }
@@ -28,5 +35,6 @@ namespace Model
         public Patient()
         {
         }
+        
     }
 }

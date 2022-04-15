@@ -3,8 +3,8 @@
 namespace Model
 {
 
-    public enum Gender
+    public enum Gender : int
     {
-        Male, Female, Other
+        Male , Female, Other
     }
 }

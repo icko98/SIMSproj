@@ -17,7 +17,7 @@ namespace Model
 
 
 
-        [JsonConstructor]
+        [JsonConstructor]  
         public App(string patID, System.DateTime dt, int dur)
       {
             this.Id = Guid.NewGuid();

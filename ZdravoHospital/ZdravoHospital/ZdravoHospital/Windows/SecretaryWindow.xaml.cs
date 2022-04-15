@@ -45,8 +45,8 @@ namespace ZdravoHospital.Windows
         private void Button_Click_SAdd(object sender, RoutedEventArgs e)
         {
 
-            //CreatePatient createPatient = new CreatePatient();
-            //createPatient.Show();
+            CreatePatient createPatient = new CreatePatient();
+            createPatient.Show();
         }
 
         private void Button_Click_SEdit(object sender, RoutedEventArgs e)
@@ -56,7 +56,7 @@ namespace ZdravoHospital.Windows
                 return;
 
             }
-            //EditPatient editPatient = new EditPatient();
+            EditPatient editPatient = new EditPatient();
         }
 
         private void Button_Click_SDelete(object sender, RoutedEventArgs e)
@@ -66,8 +66,8 @@ namespace ZdravoHospital.Windows
             {
                 return;
             }
-            //DeletePatient deletePatient = new DeletePatient();
-            //deletePatient.Show();
+            DeletePatient deletePatient = new DeletePatient();
+            deletePatient.Show();
         }
     }
 }
