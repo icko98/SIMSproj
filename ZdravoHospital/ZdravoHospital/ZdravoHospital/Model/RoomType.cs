@@ -14,6 +14,5 @@ namespace Model
       OperationRoom,
       ExaminationRoom,
       Warehouse,
-      NursingRoom
    }
 }
