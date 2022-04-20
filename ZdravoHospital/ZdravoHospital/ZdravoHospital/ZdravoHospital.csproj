@@ -59,16 +59,22 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controller\AppController.cs" />
+    <Compile Include="Controller\EquipmentController.cs" />
     <Compile Include="Controller\PatientController.cs" />
     <Compile Include="FileHandler\AppFileHandler.cs" />
+    <Compile Include="FileHandler\EquipmentFileHandler.cs" />
     <Compile Include="FileHandler\PatientFileHandler.cs" />
     <Compile Include="Model\App.cs" />
+    <Compile Include="Model\Equipment.cs" />
+    <Compile Include="Model\EquipmentType.cs" />
     <Compile Include="Model\Gender.cs" />
     <Compile Include="Model\Patient.cs" />
     <Compile Include="Repository\AppRepository.cs" />
+    <Compile Include="Repository\EquipmentRepository.cs" />
     <Compile Include="Repository\PatientRepository.cs" />
     <Compile Include="Repository\RoomRepository.cs" />
     <Compile Include="Service\AppService.cs" />
+    <Compile Include="Service\EquipmentService.cs" />
     <Compile Include="Service\PatientService.cs" />
     <Compile Include="Service\RoomService.cs" />
     <Compile Include="Validation\ValidationForRooms.cs" />

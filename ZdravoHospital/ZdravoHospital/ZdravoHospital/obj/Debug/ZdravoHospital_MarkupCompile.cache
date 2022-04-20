@@ -12,9 +12,9 @@ DEBUG;TRACE
 C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\App.xaml
 13-234357417
 
-351470452594
+36-611636024
 14-291576007
 MainWindow.xaml;Windows\CreatePatient.xaml;Windows\CreateApp.xaml;Windows\CreateRoom.xaml;Windows\DeleteApp.xaml;Windows\DeletePatient.xaml;Windows\DeleteRoom.xaml;Windows\EditPatient.xaml;Windows\SecretaryWindow.xaml;Windows\DoctorWindow.xaml;Windows\EditApp.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
 
-False
+True
 
