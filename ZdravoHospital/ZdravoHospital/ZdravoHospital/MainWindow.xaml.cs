@@ -29,8 +29,11 @@ namespace ZdravoHospital
 
         private void Button_Click_Manager(object sender, RoutedEventArgs e)
         {
-            ManagerWindow managerWindow = ManagerWindow.GetManagerWindow();
-            managerWindow.Show();
+            //ManagerWindow managerWindow = ManagerWindow.GetManagerWindow();
+            //managerWindow.Show();
+
+            ManagerOptions managerOptions = ManagerOptions.GetManagerOptions();
+            managerOptions.Show();
             
         }
         private void Button_Click_Doctor(object sender, RoutedEventArgs e)
