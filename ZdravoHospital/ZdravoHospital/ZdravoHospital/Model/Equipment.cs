@@ -14,6 +14,21 @@ namespace Model
       private string roomId;
       private int quantity;
       private EquipmentType equipmentType;
+
+    public Equipment(string id, string name, string roomId, int quantity, EquipmentType equipmentType)
+        {
+            Id = id;
+            Name = name;
+            RoomId = roomId;
+            Quantity = quantity;
+            EquipmentType = equipmentType;
+        }
+
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string RoomId { get; set; }
+        public int Quantity { get; set; }
+        public EquipmentType EquipmentType { get; set; }
    
    }
 }

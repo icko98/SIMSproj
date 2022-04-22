@@ -13,17 +13,38 @@ namespace Repository
    {
       public List<Equipment> GetEquipment()
       {
-         throw new NotImplementedException();
+            return equipmentFileHandler.Load();
       }
       
       public Model.Equipment GetById(string id)
       {
-         throw new NotImplementedException();
+            Equipment = equipmentFileHandler.Load();
+            Equipment wantedEquipment = null;
+            int numberOfEquipment = Equipment.Count;
+            for(int i = 0; i < numberOfEquipment; i++)
+            {
+                if(Equipment[i].Id == id)
+                {
+                    wantedEquipment = Equipment[i];
+                }
+            }
+            return wantedEquipment;
       }
       
       public Model.Equipment GetByName(string name)
       {
-         throw new NotImplementedException();
+            Equipment = equipmentFileHandler.Load();
+            Equipment wantedEquipment = null;
+            int numberOfEquipment = Equipment.Count;
+            for(int i = 0; i < numberOfEquipment; i++)
+            {
+                if(Equipment[i].Name == name )
+                {
+                    wantedEquipment = Equipment[i];
+                }
+            }
+
+            return wantedEquipment;
       }
       
       public FileHandler.EquipmentFileHandler equipmentFileHandler;

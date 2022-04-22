@@ -13,18 +13,18 @@ namespace Controller
    {
       public List<Equipment> GetEquipment()
       {
-         throw new NotImplementedException();
-      }
+            return equipmentService.GetEquipment();
+        }
       
       public Equipment GetById(string id)
       {
-         throw new NotImplementedException();
-      }
+            return equipmentService.GetById(id);
+        }
       
       public Equipment GetByName(string name)
       {
-         throw new NotImplementedException();
-      }
+            return equipmentService.GetByName(name);
+        }
       
       public Service.EquipmentService equipmentService;
    

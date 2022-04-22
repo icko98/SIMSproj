@@ -11,17 +11,19 @@ namespace FileHandler
 {
    public class EquipmentFileHandler
    {
-      private string path;
+      
       
       public void Save(List<Equipment> equipment)
       {
-         throw new NotImplementedException();
-      }
+            System.IO.File.WriteAllText(path, Newtonsoft.Json.JsonConvert.SerializeObject(equipment));
+        }
       
       public List<Equipment> Load()
       {
-         throw new NotImplementedException();
-      }
-   
-   }
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<List<Equipment>>(System.IO.File.ReadAllText(path));
+        }
+
+        private string path = @"..\..\Data\Equipment.txt";
+
+    }
 }

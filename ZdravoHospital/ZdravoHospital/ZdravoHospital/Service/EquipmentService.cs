@@ -13,18 +13,18 @@ namespace Service
    {
       public List<Equipment> GetEquipment()
       {
-         throw new NotImplementedException();
+            return equipmentRepository.GetEquipment();
       }
       
       public Equipment GetById(string id)
       {
-         throw new NotImplementedException();
-      }
+            return equipmentRepository.GetById(id);
+        }
       
       public Equipment GetByName(string name)
       {
-         throw new NotImplementedException();
-      }
+            return equipmentRepository.GetByName(name);
+        }
       
       public Repository.EquipmentRepository equipmentRepository;
    
