@@ -47,14 +47,16 @@ namespace Repository
             return wantedEquipment;
       }
       
-      public FileHandler.EquipmentFileHandler equipmentFileHandler;
+      public FileHandler.EquipmentFileHandler equipmentFileHandler = new FileHandler.EquipmentFileHandler();
       public System.Collections.Generic.List<Equipment> equipment;
-      
-      /// <summary>
-      /// Property for collection of Model.Equipment
-      /// </summary>
-      /// <pdGenerated>Default opposite class collection property</pdGenerated>
-      public System.Collections.Generic.List<Equipment> Equipment
+
+        
+
+        /// <summary>
+        /// Property for collection of Model.Equipment
+        /// </summary>
+        /// <pdGenerated>Default opposite class collection property</pdGenerated>
+        public System.Collections.Generic.List<Equipment> Equipment
       {
          get
          {

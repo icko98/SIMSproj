@@ -26,7 +26,7 @@ namespace Controller
             return equipmentService.GetByName(name);
         }
       
-      public Service.EquipmentService equipmentService;
+      public Service.EquipmentService equipmentService = new Service.EquipmentService();
    
    }
 }

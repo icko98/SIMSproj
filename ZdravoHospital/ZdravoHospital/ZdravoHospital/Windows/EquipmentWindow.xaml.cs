@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Controller;
+using Model;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,11 +22,21 @@ namespace ZdravoHospital.Windows
     /// </summary>
     public partial class EquipmentWindow : Window
     {
+
+        public static EquipmentController equipmentController = new EquipmentController();
+        public ObservableCollection<Equipment> Equipment { get; set; }
+
+        public static Equipment SelectedEquipment { get; set; }
+
+
         public EquipmentWindow()
         {
             InitializeComponent();
+            this.DataContext = this;
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
 
+
+            Equipment = new ObservableCollection<Equipment>(equipmentController.GetEquipment());
         }
 
         private static EquipmentWindow windowInstance;

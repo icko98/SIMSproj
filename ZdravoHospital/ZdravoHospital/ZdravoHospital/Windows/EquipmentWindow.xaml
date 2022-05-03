@@ -7,6 +7,27 @@
         mc:Ignorable="d"
         Title="EquipmentWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="206*"/>
+            <ColumnDefinition Width="267*"/>
+            <ColumnDefinition Width="267*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <DataGrid Name="equipmentTable" ItemsSource="{Binding Path=Equipment, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedEquipment, Mode=TwoWay}" ColumnWidth="*" HorizontalAlignment="Left" Height="316" Margin="13,26,0,0" VerticalAlignment="Top" Width="762" Grid.ColumnSpan="4"  Grid.RowSpan="4" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="RoomId" Binding="{Binding RoomId}"/>
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}"/>
+                <DataGridTextColumn Header="EquipmentType" Binding="{Binding EquipmentType}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

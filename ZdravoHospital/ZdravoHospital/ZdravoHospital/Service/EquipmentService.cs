@@ -26,7 +26,8 @@ namespace Service
             return equipmentRepository.GetByName(name);
         }
       
-      public Repository.EquipmentRepository equipmentRepository;
-   
-   }
+      public Repository.EquipmentRepository equipmentRepository = new Repository.EquipmentRepository();
+      
+
+    }
 }
