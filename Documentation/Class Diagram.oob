@@ -3377,7 +3377,11 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o33">
 <a:CreationDate>1651603602</a:CreationDate>
 <a:ModificationDate>1651603602</a:ModificationDate>
+<<<<<<< HEAD
 <a:Rect>((-61392,-5288), (-57344,11062))</a:Rect>
+=======
+<a:Rect>((-59668,-5288), (-59068,11062))</a:Rect>
+>>>>>>> feature/relocate_equipment
 <a:ListOfPoints>((-59368,11062),(-59368,-5288))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -5024,7 +5028,11 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o111">
 <a:CreationDate>1651603469</a:CreationDate>
 <a:ModificationDate>1651603469</a:ModificationDate>
+<<<<<<< HEAD
 <a:Rect>((-63883,1162), (-59835,11512))</a:Rect>
+=======
+<a:Rect>((-63807,1162), (-59908,11512))</a:Rect>
+>>>>>>> feature/relocate_equipment
 <a:ListOfPoints>((-61859,11512),(-61859,1162))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -6747,7 +6755,11 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o201">
 <a:CreationDate>1651603312</a:CreationDate>
 <a:ModificationDate>1651603312</a:ModificationDate>
+<<<<<<< HEAD
 <a:Rect>((-65652,-5017), (-61604,2033))</a:Rect>
+=======
+<a:Rect>((-65576,-5017), (-61677,2033))</a:Rect>
+>>>>>>> feature/relocate_equipment
 <a:ListOfPoints>((-63628,2033),(-63628,-5017))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -6767,7 +6779,11 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o205">
 <a:CreationDate>1651603314</a:CreationDate>
 <a:ModificationDate>1651603314</a:ModificationDate>
+<<<<<<< HEAD
 <a:Rect>((-65464,6533), (-61416,14933))</a:Rect>
+=======
+<a:Rect>((-65388,6533), (-61489,14933))</a:Rect>
+>>>>>>> feature/relocate_equipment
 <a:ListOfPoints>((-63440,6533),(-63440,14933))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
