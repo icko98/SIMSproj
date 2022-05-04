@@ -19,7 +19,7 @@ namespace Repository
          throw new NotImplementedException();
       }
       
-      public Model.RelocateEquipment relocateEquipment;
+      public Model.RelocateEquipment[] relocateEquipment;
       public FileHandler.RelocateEquipmentFileHandler relocateEquipmentFileHandler;
    
    }
