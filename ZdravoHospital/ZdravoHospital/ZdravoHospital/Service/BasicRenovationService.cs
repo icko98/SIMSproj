@@ -3,7 +3,9 @@
 // Created: Wednesday, May 4, 2022 1:58:10 AM
 // Purpose: Definition of Class BasicRenovationService
 
+using Model;
 using System;
+using System.Collections.Generic;
 
 namespace Service
 {
@@ -11,15 +13,15 @@ namespace Service
    {
       public void ScheduleRenovation(BasicRenovation basicRenovation)
       {
-         throw new NotImplementedException();
+         basicRenovationRepository.ScheduleRenovation(basicRenovation);
       }
       
       public List<BasicRenovation> GetScheduledRenovations()
       {
-         throw new NotImplementedException();
+         return basicRenovationRepository.GetScheduledRenovations();
       }
       
-      public Repository.BasicRenovationRepository basicRenovationRepository;
+      public Repository.BasicRenovationRepository basicRenovationRepository = new Repository.BasicRenovationRepository();
    
    }
 }

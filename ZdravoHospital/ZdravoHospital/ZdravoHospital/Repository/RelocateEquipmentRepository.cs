@@ -3,7 +3,9 @@
 // Created: Tuesday, May 3, 2022 8:26:09 PM
 // Purpose: Definition of Class RelocateEquipmentRepository
 
+using Model;
 using System;
+using System.Collections.Generic;
 
 namespace Repository
 {

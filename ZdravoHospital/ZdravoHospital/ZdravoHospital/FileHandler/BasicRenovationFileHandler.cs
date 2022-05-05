@@ -3,23 +3,27 @@
 // Created: Wednesday, May 4, 2022 1:24:58 AM
 // Purpose: Definition of Class BasicRenovationFileHandler
 
+using Model;
 using System;
+using System.Collections.Generic;
 
 namespace FileHandler
 {
    public class BasicRenovationFileHandler
    {
-      private string path;
+      
       
       public void Save(List<BasicRenovation> basicRenovation)
       {
-         throw new NotImplementedException();
-      }
+            System.IO.File.WriteAllText(path, Newtonsoft.Json.JsonConvert.SerializeObject(basicRenovation));
+        }
       
       public List<BasicRenovation> Load()
       {
-         throw new NotImplementedException();
-      }
-   
-   }
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<List<BasicRenovation>>(System.IO.File.ReadAllText(path));
+        }
+
+        private string path = @"..\..\Data\BasicRenovation.txt";
+
+    }
 }

@@ -3,7 +3,9 @@
 // Created: Tuesday, May 3, 2022 8:42:54 PM
 // Purpose: Definition of Class RelocateEquipmentService
 
+using Model;
 using System;
+using System.Collections.Generic;
 
 namespace Service
 {

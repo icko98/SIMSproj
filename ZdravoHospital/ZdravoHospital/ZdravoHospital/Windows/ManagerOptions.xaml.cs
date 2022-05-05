@@ -50,5 +50,11 @@ namespace ZdravoHospital.Windows
             EquipmentWindow equipmentWindow = EquipmentWindow.GetEquipmentWindow();
             equipmentWindow.Show();
         }
+
+        private void BasicRenovation_Click(object sender, RoutedEventArgs e)
+        {
+            BasicRenovationWindow basicRenovationWindow = BasicRenovationWindow.GetBasicRenovationWindow();
+            basicRenovationWindow.Show();
+        }
     }
 }

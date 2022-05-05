@@ -88,6 +88,9 @@
     <Compile Include="Service\RelocateEquipmentService.cs" />
     <Compile Include="Service\RoomService.cs" />
     <Compile Include="Validation\ValidationForRooms.cs" />
+    <Compile Include="Windows\BasicRenovationWindow.xaml.cs">
+      <DependentUpon>BasicRenovationWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\CreatePatient.xaml.cs">
       <DependentUpon>CreatePatient.xaml</DependentUpon>
     </Compile>
@@ -144,6 +147,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\BasicRenovationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\CreatePatient.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

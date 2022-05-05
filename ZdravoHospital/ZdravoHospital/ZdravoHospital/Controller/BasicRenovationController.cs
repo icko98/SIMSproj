@@ -3,7 +3,9 @@
 // Created: Wednesday, May 4, 2022 2:00:55 AM
 // Purpose: Definition of Class BasicRenovationController
 
+using Model;
 using System;
+using System.Collections.Generic;
 
 namespace Controller
 {
@@ -11,15 +13,15 @@ namespace Controller
    {
       public void ScheduleRenovation(BasicRenovation basicRenovation)
       {
-         throw new NotImplementedException();
+         basicRenovationService.ScheduleRenovation(basicRenovation);
       }
       
       public List<BasicRenovation> GetScheduledRenovations()
       {
-         throw new NotImplementedException();
+         return basicRenovationService.GetScheduledRenovations();
       }
       
-      public Service.BasicRenovationService basicRenovationService;
+      public Service.BasicRenovationService basicRenovationService = new Service.BasicRenovationService();
    
    }
 }
