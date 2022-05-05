@@ -9,6 +9,8 @@
     <Grid>
         <Button x:Name="Rooms" Content="Rooms" HorizontalAlignment="Left" Margin="125,123,0,0" VerticalAlignment="Top" Click="Rooms_Click" Height="59" Width="82"/>
         <Button x:Name="Equipment" Content="Equipment" HorizontalAlignment="Left" Margin="387,133,0,0" VerticalAlignment="Top" Height="49" Width="93" Click="Equipment_Click"/>
+        <Button Content="Relocation" HorizontalAlignment="Left" Margin="155,304,0,0" VerticalAlignment="Top" Height="51" Width="90"/>
+        <Button Content="Renovation" HorizontalAlignment="Left" Margin="434,324,0,0" VerticalAlignment="Top" Height="51" Width="85"/>
 
     </Grid>
 </Window>

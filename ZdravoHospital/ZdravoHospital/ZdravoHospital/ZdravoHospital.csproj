@@ -102,6 +102,9 @@
     <Compile Include="Windows\EquipmentWindow.xaml.cs">
       <DependentUpon>EquipmentWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\ManagerLogIn.xaml.cs">
+      <DependentUpon>ManagerLogIn.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\ManagerOptions.xaml.cs">
       <DependentUpon>ManagerOptions.xaml</DependentUpon>
     </Compile>
@@ -163,6 +166,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\EquipmentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ManagerLogIn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
