@@ -1,6 +1,7 @@
 ﻿
 
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\MainWindow.xaml;;
+FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\BasicRenovationWindow.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\CreatePatient.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\CreateApp.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\CreateRoom.xaml;;
@@ -8,12 +9,12 @@ FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Win
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\DeletePatient.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\DeleteRoom.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\EditPatient.xaml;;
+FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\EquipmentWindow.xaml;;
+FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\ManagerOptions.xaml;;
+FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\ScheduleRenovation.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\SecretaryWindow.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\DoctorWindow.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\EditApp.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\EditRoom.xaml;;
 FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\ManagerWindow.xaml;;
-FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\ManagerOptions.xaml;;
-FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\EquipmentWindow.xaml;;
-FC:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\Windows\BasicRenovationWindow.xaml;;
 

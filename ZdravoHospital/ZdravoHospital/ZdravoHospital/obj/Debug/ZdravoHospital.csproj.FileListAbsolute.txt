@@ -203,3 +203,5 @@ C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\
 C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EquipmentWindow.baml
 C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.g.cs
 C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\BasicRenovationWindow.baml
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.g.cs
+C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.baml

@@ -118,6 +118,9 @@
     <Compile Include="Windows\ManagerOptions.xaml.cs">
       <DependentUpon>ManagerOptions.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\ScheduleRenovation.xaml.cs">
+      <DependentUpon>ScheduleRenovation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\SecretaryWindow.xaml.cs">
       <DependentUpon>SecretaryWindow.xaml</DependentUpon>
     </Compile>
@@ -184,6 +187,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\ManagerOptions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ScheduleRenovation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

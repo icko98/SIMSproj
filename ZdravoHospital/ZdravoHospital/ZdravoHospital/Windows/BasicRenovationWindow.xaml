@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="BasicRenovationWindow" Height="450" Width="800">
     <Grid>
-        
+        <DataGrid Name="basicRenovationTable" ItemsSource="{Binding Path=BasicRenovation, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedBasicRenovation, Mode=TwoWay}" ColumnWidth="*" HorizontalAlignment="Left" Height="316" Margin="13,26,0,0" VerticalAlignment="Top" Width="762" Grid.ColumnSpan="4"  Grid.RowSpan="4" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="RoomId" Binding="{Binding RoomId}"/>
+                <DataGridTextColumn Header="StartDate" Binding="{Binding StartDate}" />
+                <DataGridTextColumn Header="EndDate" Binding="{Binding EndDate}"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="ScheduleRenovation" Content="Schedule Renovation" HorizontalAlignment="Left" Height="19" Margin="323,382,0,0" VerticalAlignment="Top" Width="124" Click="ScheduleRenovation_Click"/>
     </Grid>
 </Window>
