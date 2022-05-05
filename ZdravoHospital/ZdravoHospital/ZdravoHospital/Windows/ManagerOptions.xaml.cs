@@ -56,5 +56,10 @@ namespace ZdravoHospital.Windows
             BasicRenovationWindow basicRenovationWindow = BasicRenovationWindow.GetBasicRenovationWindow();
             basicRenovationWindow.Show();
         }
+
+        private void RelocateEquipment_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
