@@ -65,5 +65,19 @@ namespace ZdravoHospital.Windows
             }
             EditApp editApp = new EditApp();
         }
+        private void Button_Click_File(object sender, RoutedEventArgs e)
+        {
+            if (SelectedApp == null)
+            {
+                return;
+
+            }
+            File patFile = new File();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -26,12 +26,22 @@
                 <DataGridTextColumn Header="PatientID" Binding="{Binding PatientID}" />
                 <DataGridTextColumn Header="Date" Binding="{Binding Dt}"/>
                 <DataGridTextColumn Header="Duration" Binding="{Binding Duration}"/>
-              
+
             </DataGrid.Columns>
         </DataGrid>
         <Button Content="Add" HorizontalAlignment="Left" Margin="15,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_DAdd" Height="37" Grid.Column="1"/>
-        <Button Content="Edit" HorizontalAlignment="Left" Margin="79,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_DEdit" Height="37" Grid.Column="2"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Margin="87,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_DDelete" Height="37" Grid.Column="3"/>
+        <Button Content="Edit" HorizontalAlignment="Left" Margin="10,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_DEdit" Height="37" Grid.Column="2"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="206,23,0,0" Grid.Row="4" VerticalAlignment="Top" Width="111" Click="Button_Click_DDelete" Height="37" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <Button Content="File" HorizontalAlignment="Left" Margin="130,0,0,0" Grid.Row="4" VerticalAlignment="Center" Width="111" Click="Button_Click_File" Height="37" Grid.Column="3" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.577"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
 
     </Grid>
 </Window>
