@@ -3,6 +3,7 @@ using Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,6 +48,11 @@ namespace ZdravoHospital.Windows
                 windowInstance = new EquipmentWindow();
             }
             return windowInstance;
+        }
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            windowInstance = null;
         }
     }
 }
