@@ -59,7 +59,8 @@ namespace ZdravoHospital.Windows
 
         private void RelocateEquipment_Click(object sender, RoutedEventArgs e)
         {
-
+            RelocationWIndow relocationWindow = RelocationWIndow.GetRelocationWindow();
+                relocationWindow.Show();
         }
     }
 }
