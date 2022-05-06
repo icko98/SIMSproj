@@ -16,5 +16,5 @@ C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\Zdrav
 14-649153467
 MainWindow.xaml;Windows\MakeAppointmentWindow.xaml;Windows\BasicRenovationWindow.xaml;Windows\CreatePatient.xaml;Windows\CreateApp.xaml;Windows\CreateRoom.xaml;Windows\DeleteApp.xaml;Windows\AllAppointmentsWindow.xaml;Windows\DeletePatient.xaml;Windows\DeleteRoom.xaml;Windows\EditPatient.xaml;Windows\EquipmentWindow.xaml;Windows\LogIn.xaml;Windows\ManagerOptions.xaml;Windows\RelocateWindow.xaml;Windows\RelocationWIndow.xaml;Windows\ScheduleRenovation.xaml;Windows\SecretaryOptions.xaml;Windows\SecretaryWindow.xaml;Windows\DoctorWindow.xaml;Windows\EditApp.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
 
-True
+False
 

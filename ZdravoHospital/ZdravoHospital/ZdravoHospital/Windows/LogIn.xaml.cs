@@ -37,8 +37,8 @@ namespace ZdravoHospital.Windows
                 }
                 else if(pass.Password == "1234" && username.Text == "Secretary")
                 {
-                    SecretaryWindow secretaryWindow = SecretaryWindow.GetSecretaryWindow();
-                    secretaryWindow.Show();
+                    SecretaryOptions secretaryOptions = SecretaryOptions.GetSecretaryOptions();
+                    secretaryOptions.Show();
                 }
                 else if(pass.Password == "1234" && username.Text == "Doctor")
                 {
