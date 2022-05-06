@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\
 ZdravoHospital
 none
 false
 DEBUG;TRACE
-C:\Users\User\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\App.xaml
-20-1309294532
+C:\Users\EliteBook\Documents\GitHub\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\App.xaml
+231322749071
 
-58-55172629
-14-291576007
-MainWindow.xaml;Windows\BasicRenovationWindow.xaml;Windows\CreatePatient.xaml;Windows\CreateApp.xaml;Windows\CreateRoom.xaml;Windows\DeleteApp.xaml;Windows\DeletePatient.xaml;Windows\DeleteRoom.xaml;Windows\EditPatient.xaml;Windows\EquipmentWindow.xaml;Windows\LogIn.xaml;Windows\ManagerOptions.xaml;Windows\RelocateWindow.xaml;Windows\RelocationWIndow.xaml;Windows\ScheduleRenovation.xaml;Windows\SecretaryWindow.xaml;Windows\DoctorWindow.xaml;Windows\EditApp.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
+77-2056511915
+14-649153467
+MainWindow.xaml;Windows\MakeAppointmentWindow.xaml;Windows\BasicRenovationWindow.xaml;Windows\CreatePatient.xaml;Windows\CreateApp.xaml;Windows\CreateRoom.xaml;Windows\DeleteApp.xaml;Windows\AllAppointmentsWindow.xaml;Windows\DeletePatient.xaml;Windows\DeleteRoom.xaml;Windows\EditPatient.xaml;Windows\EquipmentWindow.xaml;Windows\LogIn.xaml;Windows\ManagerOptions.xaml;Windows\RelocateWindow.xaml;Windows\RelocationWIndow.xaml;Windows\ScheduleRenovation.xaml;Windows\SecretaryOptions.xaml;Windows\SecretaryWindow.xaml;Windows\DoctorWindow.xaml;Windows\EditApp.xaml;Windows\EditRoom.xaml;Windows\ManagerWindow.xaml;
 
 False
 

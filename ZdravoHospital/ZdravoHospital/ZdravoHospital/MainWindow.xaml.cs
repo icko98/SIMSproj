@@ -44,8 +44,8 @@ namespace ZdravoHospital
 
         private void Button_Click_Secretary(object sender, RoutedEventArgs e)
         {
-            SecretaryWindow secretaryWindow = SecretaryWindow.GetSecretaryWindow();
-            secretaryWindow.Show();
+            SecretaryOptions secretaryOptions = SecretaryOptions.GetSecretaryOptions();
+            secretaryOptions.Show();
         }
 
         private void Button_Click_LogIn(object sender, RoutedEventArgs e)

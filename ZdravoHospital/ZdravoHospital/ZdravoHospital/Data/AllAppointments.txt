@@ -1,0 +1,5 @@
+[{"Jmbg":"23-598-1837","DateAndTime":"4/18/2022","Duration":7,"Doctor":"Joanie Aickin"},
+{"Jmbg":"69-264-9483","DateAndTime":"3/6/2022","Duration":47,"Doctor":"Kimberlee Licciardo"},
+{"Jmbg":"22-211-9996","DateAndTime":"6/9/2021","Duration":14,"Doctor":"Skippie Graysmark"},
+{"Jmbg":"98-686-5980","DateAndTime":"6/26/2021","Duration":60,"Doctor":"Julianne Jacobsson"},
+{"Jmbg":"61-876-8578","DateAndTime":"12/25/2021","Duration":84,"Doctor":"Stillman Gayforth"}]
