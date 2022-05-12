@@ -225,10 +225,7 @@ C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj
 C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocateWindow.baml
 C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\RelocationWIndow.baml
 C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\ScheduleRenovation.baml
-C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\OwnApps.g.cs
-C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\OwnApps.baml
 C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateReport.g.cs
-C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\PatientFile.g.cs
 C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe.config
 C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.exe
 C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\bin\Debug\ZdravoHospital.pdb
@@ -293,3 +290,8 @@ C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital
 C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\File.baml
 C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.g.cs
 C:\Users\Ilija\Desktop\zlj\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\File.g.cs
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\CreateReport.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\EditReport.baml
+C:\Users\Ilija\Desktop\SIMSproj\ZdravoHospital\ZdravoHospital\ZdravoHospital\obj\Debug\Windows\File.baml
